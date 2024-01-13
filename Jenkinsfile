@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('SCM Checkout'){
             steps {
-                git url: 'xyz', branch: 'master'
+                git url: 'https://github.com/ArunimaDas18/NodeJs-cicd.git', branch: 'main'
             }
         }
         stage('Build '){
